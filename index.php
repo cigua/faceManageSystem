@@ -31,14 +31,78 @@
 
     </head>
 
+
+
+<style>
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 150%;
+  
+ 
+  
+}
+</style>
+
+
+
+
+
+
+
     <body>
-<script src="tempTest/test.js" count="200" zindex="-2" opacity="0.5" color="250,250,250" type="text/javascript">
-</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         <!-- Top content -->
         <div class="top-content">
-        	
+         <div id="particles-js"></div>
+<!-- scripts -->
+<script src="js/particles.min.js"></script>
+<script src="js/app.js"></script>
+        	 
             <div class="inner-bg">
+
                 <div class="container">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
                     <div class="row">
                         <div class="col-sm-8 col-sm-offset-2 text">
                             <h1>Face人脸识别后台管理系统</h1>
@@ -51,6 +115,7 @@
                             </div>
                         </div>
                     </div>
+                  
                     <div class="row">
                         <div class="col-sm-6 col-sm-offset-3 form-box">
                         	<div class="form-top">
@@ -84,7 +149,7 @@
 
                              <div class="description">
                                 <p>
-                                    Copyright2017 &copy; UJN可视计算实验室 All Rights Reserved.
+                                    Copyright2017 &copy; 济南大学可视计算实验室 All Rights Reserved.
                                 </p>
 
                             </div>
@@ -122,6 +187,7 @@
         <!--[if lt IE 10]>
             <script src="assets/js/placeholder.js"></script>
         <![endif]-->
+
 
     </body>
 
