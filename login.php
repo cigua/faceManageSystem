@@ -27,8 +27,6 @@
 	$sql = "SELECT * FROM face_users WHERE userName='$userName' AND userPassword='$userPassword' limit 1";
 	$result=$db_conn->query($sql);
 
-	//echo "<br>".$userPassword;
-	//echo "<br>".$result->num_rows;
 	if($result->num_rows>0){
     	$_SESSION['userName'] = $userName;
     	echo $userName,' 欢迎你！进入';
