@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
     <head>
-
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -13,7 +11,7 @@
         <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
         <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
 		<link rel="stylesheet" href="assets/css/form-elements.css">
-        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="css/style.css">
 
         <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -33,75 +31,21 @@
 
 
 
-<style>
-#particles-js {
-  position: absolute;
-  width: 100%;
-  height: 150%;
-  
- 
-  
-}
-</style>
-
-
-
-
-
-
-
     <body>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
         <!-- Top content -->
         <div class="top-content">
-         <div id="particles-js"></div>
-<!-- scripts -->
-<script src="js/particles.min.js"></script>
-<script src="js/app.js"></script>
+
+        <!--particles-js特效-->
+            <div id="particles-js"></div>
+            <!-- scripts -->
+            <script src="js/particles.min.js"></script>
+            <script src="js/app.js"></script>
         	 
             <div class="inner-bg">
 
                 <div class="container">
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
                     <div class="row">
                         <div class="col-sm-8 col-sm-offset-2 text">
@@ -149,13 +93,10 @@
 
                              <div class="description">
                                 <p>
-                                    Copyright2017 &copy; 济南大学可视计算实验室 All Rights Reserved.
+                                    Copyright 2017 &copy; UJN可视计算实验室 All Rights Reserved.
                                 </p>
 
                             </div>
-
-
-
 
 
 
@@ -180,7 +121,7 @@
 
         <!-- Javascript -->
         <script src="assets/js/jquery-1.11.1.min.js"></script>
-        <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
         <script src="assets/js/jquery.backstretch.min.js"></script>
         <script src="assets/js/scripts.js"></script>
         
