@@ -93,7 +93,7 @@
 
                              <div class="description">
                                 <p>
-                                    Copyright 2017 &copy; UJN可视计算实验室 All Rights Reserved.
+                                    Copyright &copy; 2017 UJN可视计算实验室 All Rights Reserved.
                                 </p>
 
                             </div>

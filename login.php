@@ -29,10 +29,17 @@
 
 	if($result->num_rows>0){
     	$_SESSION['userName'] = $userName;
-    	echo $userName,' 欢迎你！进入';
+    	header("refresh:0;url=main/index.php");//如果成功跳转至main/index.php页面
+        exit;
 	}
 
 	else{
-    	echo "<br>Failed";
+		 echo "表单填写不完整";
+        echo "
+           <script>
+              setTimeout(function(){window.location.href='index.php';},1000);
+           </script>";
+ 
+            //如果错误使用js 1秒后跳转到登录页面重试;
 	}
 ?>
